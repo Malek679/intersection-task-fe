@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Globalny motyw ciemny */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nagłówki */
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+/* Przyciski, selecty oraz inputy */
+button, select, input[type="file"] {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+/* Kontenery i panele */
+div {
+  background-color: #121212;
+}
+
+/* Panel logów (możesz dodać odpowiednią klasę np. .logs-panel w komponencie) */
+.logs-panel {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+/* Okno wizualizacji - canvas pozostaje jasny */
+canvas {
+  background-color: #ffffff !important;
+  border: 1px solid #ccc;
+  min-width: 770px;
+  max-height: 680px;
+}
